@@ -1,0 +1,24 @@
+<ul>
+  <li *ngFor="let books of books">
+    <a>
+      <img src="{{books.imageUrl}}" alt="">
+      <div class="content">
+        <div class="name">
+          {{books.name}}
+        </div>
+        <span class="favorite{{books.favorite?'':'not'}}">
+          ❤
+        </span>
+        <div class="product-item-footer">
+          <div class="origins">
+          {{books.origins}}
+          </div>
+        </div>
+        <div class="price">
+          <span>Ksh</span>
+          {{books.price}}
+        </div>
+      </div>
+    </a>
+   </li>
+</ul>

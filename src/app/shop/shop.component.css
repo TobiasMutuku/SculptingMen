@@ -1,0 +1,47 @@
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  }
+
+  ul li a{
+    height: 20rem;
+    width: 13rem;
+    border: 1px solid whitesmoke;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: #0c0b0b;
+  }
+
+  li a:hover{
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  .favorite{
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .favorite.not{
+    color: yellow;
+  }
+
+  .content{
+    font-size: 1rem;
+    color:black;
+    display: block;
+  }
+
+  .price{
+    color: red;
+  }
+
