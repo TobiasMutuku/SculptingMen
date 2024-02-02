@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('https://img.freepik.com/premium-photo/aerial-view-coniferous-forest-foggy-sunrise_930198-4413.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.8);
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}

@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { SearchComponent } from './search/search.component';
 import { ShopComponent } from './shop/shop.component';
 import { FrontPageComponent } from './front-page/front-page.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { FrontPageComponent } from './front-page/front-page.component';
     SearchComponent,
     ShopComponent,
     FrontPageComponent,
+    LoginComponent,
 
   ],
   imports: [
